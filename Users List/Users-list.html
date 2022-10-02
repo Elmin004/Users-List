@@ -7,16 +7,24 @@
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Users List</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--Mobile Responsive-->
+    <link rel="stylesheet" media="(max-width:500px)" href="mobile.css">
+    <!--Tablet Responsive-->
+    <link rel="stylesheet" media="(max-width:940px)" href="tablet.css">
 </head>
 
 <body>
+    <!--Project link-->
     <!--https://uidesigndaily.com/posts/figma-users-list-card-day-1542-->
     <header>
         <h1>Users</h1>
         <nav>
-            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search users">
+            <div class="search-box">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search users">
+            </div>
             <div id="navbar">
                 <a href="#">Reputation</a>
                 <a href="#" id="selected-ast">New users</a>
