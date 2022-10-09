@@ -1,0 +1,28 @@
+
+a.submit, button{
+    display: none;
+}
+header div.menu i{
+    display: block;
+}
+h1{
+    font-size: 40px;
+}
+input.search{
+    width: 20em;
+}
+
+div.main{
+    flex-direction: column;
+    padding: 80px;
+    flex-wrap: nowrap;
+}
+div.box{
+    width: 100%;
+}
+footer ul{
+    justify-content: space-between;
+}
+footer ul li{
+    margin-left: 20px;
+}
