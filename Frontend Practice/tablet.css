@@ -1,28 +1,34 @@
-
-a.submit, button{
+a.submit,
+button {
     display: none;
 }
-header div.menu i{
+
+header div.menu i {
     display: block;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-input.search{
+
+input.search {
     width: 20em;
 }
 
-div.main{
+div.main {
     flex-direction: column;
     padding: 80px;
     flex-wrap: nowrap;
 }
-div.box{
+
+div.box {
     width: 100%;
 }
-footer ul{
+
+footer ul {
     justify-content: space-between;
 }
-footer ul li{
+
+footer ul li {
     margin-left: 20px;
 }

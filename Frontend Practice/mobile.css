@@ -1,34 +1,40 @@
-header{
+header {
     flex-direction: column;
     padding-left: 0;
     padding-right: 0;
 }
-div#search-bar{
+
+div#search-bar {
     padding: 80px 0 115px;
 }
-h1{
+
+h1 {
     font-size: 25px;
 }
-input.search{
+
+input.search {
     width: 15em;
 }
 
-div.main{
+div.main {
     padding: 0;
 }
 
-footer ul li{
+footer ul li {
     margin-top: 20px;
 }
+
 /*Galaxy Fold Responsive*/
 @media only screen and (max-width: 312px) {
-    h1{
+    h1 {
         font-size: 20px;
     }
-    input.search{
+
+    input.search {
         width: 10em;
     }
-    footer{
+
+    footer {
         padding-right: 0;
     }
 }
